@@ -1,0 +1,119 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+  transition: background-color 0.5s ease;
+  background-image: url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg');
+  background-size: cover;
+}
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e8f0fe;
+  transition: background-color 0.5s ease;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  animation: fadeIn 0.5s ease-in;
+  width: 300px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+  animation: logoBounce 1s infinite alternate;
+}
+
+label {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: #333;
+  font-weight: 500;
+  text-align: start;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #d1d1d1;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.paragraph {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: opacity 0.5s ease;
+}
+
+.toggle-form {
+  color: #007bff;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 15px;
+  transition: color 0.3s ease;
+}
+
+.toggle-form:hover {
+  color: #0056b3;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes logoBounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+.name {
+  text-align: right;
+  align-items: right;
+}
